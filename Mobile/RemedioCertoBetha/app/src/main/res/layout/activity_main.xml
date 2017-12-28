@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.example.daniel.remediocertobetha.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout0"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignStart="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_alignEnd="@+id/linearLayout1">
+
+
+        <Button
+
+            android:id="@+id/cadastrarMedico"
+            tools:ignore="ButtonStyle,HardcodedText,InefficientWeight,ObsoleteLayoutParam"
+            android:textSize="12sp"
+            android:onClick="cadastrarMedico"
+            android:background= "@mipmap/nurse"
+            android:layout_height="120dp"
+            android:layout_width="120dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/cadastrarRemedio"
+            tools:ignore="ButtonStyle,HardcodedText"
+            android:textSize="18sp"
+            android:onClick="cadastrarRemedio"
+            android:background="@mipmap/pills"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_margin="30dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/observacao"
+            tools:ignore="ButtonStyle,HardcodedText"
+            android:textSize="14sp"
+            android:background="@mipmap/report"
+            android:onClick="observacao"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/cadastrarTipo"
+            tools:ignore="ButtonStyle,HardcodedText"
+            android:textSize="18sp"
+            android:onClick="cadastrarTipo"
+            android:background="@mipmap/science"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignStart="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_alignEnd="@+id/linearLayout1">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/cadastrarTaxa"
+            tools:ignore="HardcodedText"
+            android:textSize="18sp"
+            android:onClick="cadastrarTaxa"
+            android:background="@mipmap/molecule"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/consultarRemedio"
+            tools:ignore="HardcodedText"
+            android:textSize="18sp"
+            android:onClick="consultarRemedio"
+            android:background="@mipmap/consulta"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+</ScrollView>

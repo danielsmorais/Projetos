@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.mailson.remediocerto.CadastarUsoRemedio"
+        tools:ignore="ScrollViewSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite abaixo os dados para cadastro:"
+            android:id="@+id/textView"
+            android:textColor="#000000"
+            android:width="500dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:id="@+id/descricao"
+            android:layout_below="@+id/text_descricao"
+            android:textSize="20dp"
+            android:inputType="text"
+            tools:ignore="SpUsage" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/spinnerRemedio"
+            android:layout_below="@+id/text_remedio"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Data*:"
+            android:id="@+id/textdata"
+            android:textColor="#000000"
+            android:width="200dp"
+            android:layout_marginTop="70dp"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage"
+            android:layout_below="@+id/descricao"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição*:"
+            android:id="@+id/text_descricao"
+            android:textColor="#000000"
+            android:width="200dp"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage"
+            android:layout_marginTop="84dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Remedio*:"
+            android:id="@+id/text_remedio"
+            android:textColor="#000000"
+            android:width="200dp"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage"
+            android:layout_below="@+id/descricao"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:id="@+id/cadastrar"
+            tools:ignore="HardcodedText"
+            android:layout_marginTop="62dp"
+            android:layout_below="@+id/textdata"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="cadastrarObservacao" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/dataDescricao"
+            android:layout_below="@+id/textdata"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+    </RelativeLayout>
+</ScrollView>
