@@ -4,7 +4,7 @@ Projeto desenvolvido por Daniel Morais, Mailson Ribeiro e Wysterlânya Kyury.
 ## Descrição:
 Desenvolvimento de aplicação para gerenciamento de processos no Sistema Operacional Linux.
 
-Link: <a href="https://www.youtube.com/watch?v=9H4SW-zCWL0&t=">YouTube</a>
+Link de vídeo: <a href="https://www.youtube.com/watch?v=9H4SW-zCWL0&t=" target="_blank">YouTube</a>
 
 ## Requisitos
 * Qt 5.8
