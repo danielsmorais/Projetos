@@ -1,4 +1,4 @@
-# Mobile
+# Gerenciador de Processos - DMW
 Projeto desenvolvido por Daniel Morais e Mailson Ribeiro.
 
 ## Descrição:
