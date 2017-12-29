@@ -1,5 +1,5 @@
 # Gerenciador de Processos - DMW
-Projeto desenvolvido por Daniel Morais e Mailson Ribeiro.
+Projeto desenvolvido por Daniel Morais, Mailson Ribeiro e Wysterlânya Kyury.
 
 ## Descrição:
 Desenvolvimento de aplicação para gerenciamento de processos no Sistema Operacional Linux.
